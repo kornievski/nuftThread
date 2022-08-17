@@ -1,10 +1,10 @@
 import threading
 import time
 
-MAX_N = 3
-DEMON_THREAD_WAIT_TIME = 1.3
-HEAD_THREAD_CHECK_TIME = .5
-MESSAGE = "Hello world"
+MAX_N = 3 # Додатковий потік ... разів
+DEMON_THREAD_WAIT_TIME = 1.3 # Додатковий потік із інтервалом у ... мс 
+HEAD_THREAD_CHECK_TIME = .5 # Головний потік кожні ... мс перевіряє стан додаткового потоку
+MESSAGE = "Hello world" # виводить у консоль ... 
 
 
 def func():
