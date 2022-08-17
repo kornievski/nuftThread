@@ -2,10 +2,10 @@ import ctypes
 import threading
 import time
 
-MAX_N = 5
-DEMON_THREAD_WAIT_TIME = .3
-HEAD_THREAD_WAIT_TIME = 5
-MESSAGE = "Hello world"
+MAX_N = 5 # Додатковий потік ... разів
+DEMON_THREAD_WAIT_TIME = .3 # із інтервалом у ... мс 
+HEAD_THREAD_WAIT_TIME = 5 # Головний потік кожні ... мс перевіряє стан додаткового потоку
+MESSAGE = "Hello world" #виводить у консоль ... 
 
 
 def func():
